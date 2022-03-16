@@ -1,0 +1,153 @@
+
+* {
+  margin: 2px;
+  box-sizing: content-box;
+  padding: 0px;
+}
+
+
+.landing-page{
+background-image: url("./images/backgroud.jpg");
+}
+.home-page{
+display:flex;
+flex-direction: column;
+background:whitesmoke ;
+opacity: 0.85;
+}
+.nav-bar{
+    margin-top: 0px;
+    margin-left: 20px;
+}
+.greeting{
+    font-family: sans-serif;
+    color: #eb4a10;
+    font-size: 20px;
+    margin-left: 20px;
+
+}
+
+h1{
+    color: rgb(253, 75, 10);
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.disc{
+    border: solid white;
+    margin-left: 20px;
+    padding: 8px;
+    margin-right: 20px;
+}
+.time h4{
+font-size: 30px;
+font-family: sans-serif;
+margin-left: 20px;
+}
+
+.time p{
+ font-size: 15px;
+ margin-left: 20px;
+}
+.activities{
+display: flex;
+flex-direction: column;
+background: url("./images/blackBg.jpg");
+}
+
+h3{
+font-size: 25px;
+text-align: center;
+color:white;
+}
+ 
+.part{
+    display: flex;
+    border: solid white;
+    background:whitesmoke ;
+    opacity: 0.5;
+    gap: 1em;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+ 
+}
+.part img{
+height: 30px;
+width: 40px;
+margin-left: 30px;
+margin-top: 10px;
+}
+
+.type {
+color: rgb(230, 60, 30);
+}
+
+.clickme {
+border-style: none;
+  color: white;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  background: orangered;
+  padding: 20px 10px;
+  margin: 30px 70px;
+}
+
+.speakers {
+display: flex;
+  flex-direction: column;
+}
+.presenters {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    padding-top: 40px;
+    
+}
+ .presenters img {
+    width: 150px;
+    height: 150px;
+}
+
+.speakers h3{
+    color: #0e0d0d;
+
+}
+
+.words{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.name {
+font-size: 20px;
+}
+.title{
+color: orangered;
+}
+
+.explanation{
+padding-top: 20px;
+}
+
+.reference{
+    display: flex;
+    background: rgb(43, 43, 48);
+    margin-top: 20px;
+    padding: 25px;
+    gap: 1em;
+    justify-content: center;
+
+}
+.reference img{
+    width: 50px;
+    height: 50px;
+}
+.reference p{
+    color: darkgray;
+}
