@@ -1,0 +1,257 @@
+
+*{
+box-sizing: content-box;
+  padding: 0px;
+}
+
+.landing-page{
+background-image: url("./imagesabout/backgroud.jpg");
+}
+.home-page{
+display:flex;
+flex-direction: column;
+background:rgb(245, 245, 245);
+opacity: 0.85;
+}
+.nav-bar{
+    margin-top: 0px;
+    margin-left: 20px;
+}
+.greeting{
+    font-family: sans-serif;
+    color: #eb4a10;
+    font-size: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+h1{
+    color: rgb(253, 75, 10);
+    font-size: 30px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.disc{
+    border: 1px solid whitesmoke;
+    margin-left: 20px;
+    padding: 8px;
+    margin-right: 20px;
+    text-align: center;
+    background: white;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+}
+
+.time p{
+text-align: center;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+}
+.logo h3{
+text-align: center;
+}
+
+.logo img{
+    width: 200px;
+    height: 100px;
+    border: 1px solid rgb(218, 209, 209);
+    align-self: center;
+    padding: 25px 120px ;
+}
+
+.Event{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./imagesabout/meeting2022.jpg);
+    background-size: 20vh;
+}
+.color{
+    background: tomato;
+    opacity:0.79;
+}
+.Event h5{
+font-size: 30px;
+text-align: center;
+color: white;
+
+}
+
+.Event p{
+    text-align: center;
+    color: white;
+}
+
+.events{
+display: flex;
+flex-direction: column;
+background-image: url(./imagesabout/meeting2020.jpg);
+background-size: 30vh;
+margin-top: 30px;
+    }
+
+.events h5{
+font-size: 30px;
+text-align: center;
+color: white;
+}
+
+.events p{
+    text-align: center;
+    color: white;
+
+
+}
+
+.colora{
+    background: tomato;
+    opacity:0.79;
+}
+.past{
+display: flex;
+flex-direction: column;
+margin: 20px;
+}
+
+.past h4{
+    font-size: 20px;
+    text-align: center;
+}
+
+.past p{
+text-align: center;
+}
+.sponsors{
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    background-color: rgb(66, 63, 63);
+    justify-content: center;
+}
+.images{
+ display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+.images img{
+display: flex;
+width: 100px;
+height: 50px;
+padding: 10px;
+flex-grow: 0;
+flex-basis: 0;
+flex-shrink: 0;
+}
+.sponsors h3{
+    color: white;
+    font-size:20px;
+    text-align: center;
+}
+
+.refera{
+    display: flex;
+    margin-top: 20px;
+    padding: 25px;
+    gap: 3em;
+    justify-content: center;
+}
+.refera img{
+width: 70px;
+height: 70px;
+}
+
+@media only screen and (min-width: 769px) {
+
+    .nav-bar{
+        display: none;
+    }
+
+    .greeting{
+        display: none;
+    }
+    .title{
+        display: flex;
+        justify-content: center;
+    }
+h1{
+    width: 600px;
+    font-size: 50px;
+}
+    .disc{
+        width: 900px;
+        align-self: center;
+        font-size: 20px;
+        margin-top: 30px;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    font: 15;
+}
+ .logo{
+    display: flex;
+    flex-direction: column;
+}
+.logo h3{
+text-align: center;
+font-size: 20px;
+}
+
+.logo img{
+    width: 200px;
+    height: 100px;
+    border: 1px solid rgb(218, 209, 209);
+    align-self: center;
+    padding: 25px 220px ;
+}
+.sample{
+    display: grid;
+    grid-template-areas: "auto auto";
+    gap:5em;
+    margin-top:0;
+    justify-content: center;
+}
+.Event{
+    margin-top: 30px;
+}
+.Event p{
+    padding-bottom:80px;
+    padding-left: 10px;
+    padding-right: 15px;
+
+}
+
+
+.colora p{
+    padding-bottom:80px;
+    padding-left: 15px;
+     padding-right: 15px;
+
+}
+.sponsors h3{
+text-align: center;
+font-size: 50px;
+margin-top: 0;
+}
+.images img{
+display: flex;
+width: 100px;
+height: 50px;
+padding: 10px 60px;
+flex-grow: 0;
+flex-basis: 0;
+flex-shrink: 0;
+margin-top: 0;
+margin-bottom: 10px;
+
+}
+.refera{
+    gap:10em;
+}
+}

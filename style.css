@@ -1,6 +1,6 @@
 
 * {
-  margin: 2px;
+  margin: 0;
   box-sizing: content-box;
   padding: 0px;
 }
@@ -9,6 +9,10 @@
 .landing-page{
 background-image: url("./images/backgroud.jpg");
 }
+
+.media{
+    display: none;
+}
 .home-page{
 display:flex;
 flex-direction: column;
@@ -16,14 +20,18 @@ background:whitesmoke ;
 opacity: 0.85;
 }
 .nav-bar{
+    display: flex;
     margin-top: 0px;
-    margin-left: 20px;
+    background-color:whitesmoke;
+    opacity: 0.85;
+    padding: 30px;
 }
+
 .greeting{
     font-family: sans-serif;
     color: #eb4a10;
     font-size: 20px;
-    margin-left: 20px;
+    margin-left: 30px;
 
 }
 
@@ -31,6 +39,7 @@ h1{
     color: rgb(253, 75, 10);
     font-size: 40px;
     margin-left: 20px;
+    padding-bottom:20px;
 }
 
 .disc{
@@ -38,16 +47,20 @@ h1{
     margin-left: 20px;
     padding: 8px;
     margin-right: 20px;
+    padding: 30px;
+    margin-bottom: 20px;
 }
 .time h4{
 font-size: 30px;
 font-family: sans-serif;
 margin-left: 20px;
+color: rgb(102, 98, 98);
 }
 
 .time p{
  font-size: 15px;
  margin-left: 20px;
+ padding-bottom: 40px;
 }
 .activities{
 display: flex;
@@ -59,6 +72,7 @@ h3{
 font-size: 25px;
 text-align: center;
 color:white;
+margin-top: 20px;
 }
  
 .part{
@@ -66,24 +80,25 @@ color:white;
     border: solid white;
     background:whitesmoke ;
     opacity: 0.5;
-    gap: 1em;
     margin-right: 20px;
     margin-left: 20px;
     margin-top: 10px;
+     gap: 2em;
  
 }
 .part img{
 height: 30px;
 width: 40px;
 margin-left: 30px;
-margin-top: 10px;
+margin-top: 20px;
 }
 
 .type {
 color: rgb(230, 60, 30);
+margin-top: 25px;
 }
 
-.clickme {
+.clickme{
 border-style: none;
   color: white;
   font-family: sans-serif;
@@ -96,10 +111,13 @@ border-style: none;
   padding: 20px 10px;
   margin: 30px 70px;
 }
-
+.activities a{
+    display: none;
+}
 .speakers {
 display: flex;
   flex-direction: column;
+  margin-top:20px;
 }
 .presenters {
     display: flex;
@@ -150,4 +168,255 @@ padding-top: 20px;
 }
 .reference p{
     color: darkgray;
+}
+.nav-menu{
+    display: none;
+}
+.sponsors{
+    display: none;
+}
+
+@media only screen and (min-width: 769px) {
+
+   .nav-bar{
+  display: none;
+} 
+.home-page{
+display:flex;
+flex-direction: column;
+background:whitesmoke ;
+opacity: 0.85;
+padding-left: 90px;
+}
+
+.greeting{
+    font-family: sans-serif;
+    color: #eb4a10;
+    font-size: 30px;
+    margin-left: 30px;
+    padding-top: 100px;
+    
+
+}
+
+h1{
+    color: rgb(253, 75, 10);
+    font-size: 60px;
+    margin-left: 20px;
+    padding-bottom:20px;
+    width: 700px;
+}
+
+.disc{
+    border: solid white;
+    margin-left: 20px;
+    padding: 8px;
+    margin-right: 20px;
+    padding: 30px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.time h4{
+font-size: 30px;
+font-family: sans-serif;
+margin-left: 20px;
+color: rgb(102, 98, 98);
+}
+
+.time p{
+ font-size: 20px;
+ margin-left: 20px;
+ padding-bottom: 40px;
+}
+.allparts{
+display: flex;
+flex-direction: row;
+justify-content: center;
+row-gap:1px;
+margin: 0;
+}
+
+.part{
+    border: solid white;
+    background:whitesmoke ;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.5;
+    margin-right: 0px;
+    margin-left: 2px;
+    margin-top: 20px;
+    gap: 0em;
+}
+.clickme{
+    display: none;
+}
+.part img{
+height: 50px;
+width: 60px;
+align-self: center;
+}
+
+
+.type {
+color: rgb(230, 60, 30);
+font-size: 20px;
+text-align: center;
+}
+
+.explanation{
+font-size: 15px;
+text-align: center;
+width: 150px;
+padding-bottom: 10px;
+}
+.activities a{
+    display: inline;
+    color: black;
+    padding:50px;
+    text-align: center;
+}
+
+.people{
+  display: flex;
+  flex-direction: row;
+  margin-top:20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.presenters {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    padding-top: 40px;
+    
+}
+ .presenters img {
+    width: 150px;
+    height: 150px;
+}
+
+.speakers h3{
+    color: #0e0d0d;
+
+}
+
+.words{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.name {
+font-size: 25px;
+}
+.title{
+color: orangered;
+}
+
+.intro{
+ width:600px;
+padding-top: 20px;
+}
+.media{
+    display: flex;
+justify-content: right;
+background-color: rgb(62, 62, 66);
+gap: 1em;
+padding-right: 10px;
+}
+.media a{
+    text-decoration: none;
+    color:hsl(0, 0%, 100%);
+}
+
+.nav-menu{
+display: flex;
+list-style: none;
+background: white;
+justify-content: space-between;
+margin-left: 0; 
+}
+.nav-menu img{
+width: 200px;
+height: 70px;
+margin: 10px 100px;
+}
+
+.cancel{ 
+    display: none;
+}
+
+ a{
+text-decoration: none;
+color: black;
+
+}
+
+.menu-items{
+ display: flex;
+   justify-content: right;
+   padding: 15px;
+   font-size: 16px;
+}
+
+.menu-items li{
+list-style: none;
+padding: 5px 50px;
+
+}
+
+.campain{
+    border: 3px solid orangered;
+    padding: 15px;
+}
+
+.about{
+color:orangered;
+}
+
+.sponsors{
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    background-color: rgb(66, 63, 63);
+    justify-content: center;
+}
+.images{
+ display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+.images img{
+display: flex;
+width: 100px;
+height: 50px;
+padding: 30px 60px;
+flex-grow: 0;
+flex-basis: 0;
+flex-shrink: 0;
+
+}
+.sponsors h3{
+    color: rgb(201, 191, 191);
+    font-size:50px;
+    text-align: center;
+}
+
+.reference{
+    display: flex;
+    margin-top: 5px;
+    gap: 15em;
+    justify-content: center;
+    background: white;
+
+}
+.reference img{
+    width: 200px;
+    height: 70px;
+}
+.reference p{
+    color: black;
+}
 }
