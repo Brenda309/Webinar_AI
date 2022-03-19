@@ -23,38 +23,45 @@
 
         <nav>
             <div class="nav-bar">
-                <a href="#" class="menu">
-                    <img src="./images/menu.png" alt="Menu" />
-                </a>
+                    <img class="humbuger" src="./images/menu.png" alt="Menu"/>
+                    <ul class="menu-item-hidden">
+                        <li class="cancel"><img src="./images/xicon.png" alt=""></li>
+                        <li><a href="../about/about.html" class="about">About</a></li>
+                        <li><a href="#Program" class="nav-list">Program</a></li>
+                        <li><a href="#join" class="nav-list">Join</a></li>
+                        <li><a href="#sponsor" class="nav-list">Sponsor</a></li>
+                        <li><a href="#news" class="nav-list">News</a></li>
+                        <li><a href="#campain" class="campain">CC Campain</a></li>
+                    </ul>
             </div>
             <div class="nav-menu">
                 <img src="./images/logo.jpg" alt="logo">
-                    <ul class = "menu-items">
-                    <li><a href="" class="about">About</a></li>
+                <ul class="menu-items">
+                    <li class="cancel"><img src="./images/xicon.png" alt=""></li>
+                    <li><a href="../about/about.html" class="about">About</a></li>
                     <li><a href="#Program" class="nav-list">Program</a></li>
                     <li><a href="#join" class="nav-list">Join</a></li>
                     <li><a href="#sponsor" class="nav-list">Sponsor</a></li>
                     <li><a href="#news" class="nav-list">News</a></li>
                     <li><a href="#campain" class="campain">CC Campain</a></li>
-                    </ul>
+                </ul>
             </div>
             <div class="home-page">
-            <div class="title">
-                <p class="greeting"><strong>Hello World!</strong></p>
-                <h1>Artifitial Intelligence Webinar 2022</h1>
+                <div class="title">
+                    <p class="greeting"><strong>Hello World!</strong></p>
+                    <h1>Artifitial Intelligence Webinar 2022</h1>
+                </div>
+                <div class="disc">
+                    <p>The life we are living today and how is the Artificial intelligence is evolving to our daily life
+                    </p>
+                </div>
+                <div class="time">
+                    <h4>2022.10.15(Mon.)~ 16(Tue.)</h4>
+                    <p>@Rwanda Convertion center of Kigali</p>
+                </div>
             </div>
-            <div class="disc">
-                <p>The life we are living today and how is the Artificial intelligence is evolving to our daily life
-                </p>
             </div>
-            <div class="time">
-                <h4>2022.10.15(Mon.)~ 16(Tue.)</h4>
-                <p>@Rwanda Convertion center of Kigali</p>
-            </div>
-            </div>
-        </div>
     </header>
-
     <section class="activities">
         <h3> Main Program</h3>
         <div class="allparts">
@@ -97,77 +104,82 @@
         <button class="clickme" type="button">Join AI Webinar 2022</button>
         <a href="#" class="menu">SEE THE WHOLE PROGRAM</a>
     </section>
-
-    <section class="speakers">
-        <h3>Featured Presenters</h3>
-        <div class="people">
-            <div class="presenters">
-                <img src="./images/speaker1.jpg" alt="speaker" />
-                <div class="words">
-                    <h5 class="name">Hanna Isa</h5>
-                    <p class="title"> Global Artificial intelligence specialist </p>
-                    <p class="intro"> Global Artificial intelligence specialist and Project manager at Umurava .
-                    </p>
-                </div>
-            </div>
-
-            <div class="presenters">
-                <img src="./images/speaker7.jpg" alt="speaker" />
-                <div class="words">
-                    <h5 class="name">David Darwin</h5>
-                    <p class="title"> Python Developer </p>
-                    <p class="intro"> David has worked on world leading project using AI technology as freelence Python
-                        Developer
-                    </p>
-                </div>
-            </div>
-
-            <div class="presenters">
-                <img src="./images/speaker3.jpg" alt="speaker" />
-                <div class="words">
-                    <h5 class="name">Suzan Sanny</h5>
-                    <p class="title"> Product manager </p>
-                    <p class="intro"> Susan has a lot of experience technology and she is excited to share her
-                        experience and her journey
-                    </p>
-                </div>
-            </div>
-
-            <div class="presenters">
-                <img src="./images/speaker8.jpg" alt="speaker" />
-                <div class="words">
-                    <h5 class="name">Pate Petar</h5>
-                    <p class="title">College Professor </p>
-                    <p class="intro"> Pete has been teaching about AI for long time about two decates and he wrote three
-                        books on AI
-                    </p>
-                </div>
-            </div>
-
-            <div class="presenters">
-                <img src="./images/speaker5.jpg" alt="speaker" />
-                <div class="words">
-                    <h5 class="name"> AIyan Yuhsu</h5>
-                    <p class="title"> Mechanical Engeneer </p>
-                    <p class="intro"> With help of AI Aiyan has launched a gas free car which will be really great for
-                        the envirnment.
-                    </p>
-                </div>
-            </div>
-
-            <div class="presenters">
-                <img src="./images/speaker6.jpg" alt="speaker" />
-                <div class="words">
-                    <h5 class="name">Ramon Rui</h5>
-                    <p class="title"> Global Artificial intelligence specialist </p>
-                    <p class="intro"> Ramon has been specializing Artificial intelligence specialist and he has 10 years
-                        experience as Software Engeener
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    <!-- html dynamically -->
+      <section class="speakers" id="speakers"> 
+        <!-- <h3>Featured Presenters</h3>
+        // <div class="people">
+            // <div class="presenters">
+                // <img src="./images/speaker1.jpg" alt="speaker" />
+                // <div class="words">
+                    // <h5 class="name">Hanna Isa</h5>
+                    // <p class="title"> Global Artificial intelligence specialist </p>
+                    // <p class="intro"> Global Artificial intelligence specialist and Project manager at Umurava .
+                        // </p>
+                    // </div>
+                // </div>
+            // </div>
+        
+        // <div class="presenters">
+            // <img src="./images/speaker7.jpg" alt="speaker" />
+            // <div class="words">
+                // <h5 class="name">David Darwin</h5>
+                // <p class="title"> Python Developer </p>
+                // <p class="intro"> David has worked on world leading project using AI technology as freelence Python
+                    // Developer
+                    // </p>
+                // </div>
+            // </div>
+        
+        
+        // <div class="presenters hidden">
+            // <img src="./images/speaker3.jpg" alt="speaker" />
+            // <div class="words">
+                // <h5 class="name">Suzan Sanny</h5>
+                // <p class="title"> Product manager </p>
+                // <p class="intro"> Susan has a lot of experience technology and she is excited to share her
+                    // experience and her journey
+                    // </p>
+                // </div>
+            // </div>
+        
+        
+        // <div class="presenters">
+            // <img src="./images/speaker8.jpg" alt="speaker" />
+            // <div class="words">
+                // <h5 class="name">Pate Petar</h5>
+                // <p class="title">College Professor </p>
+                // <p class="intro"> Pete has been teaching about AI for long time about two decates and he wrote three
+                    // books on AI
+                    // </p>
+                // </div>
+            // </div>
+        
+        // <div class="presenters hidden">
+            // <img src="./images/speaker5.jpg" alt="speaker" />
+            // <div class="words">
+                // <h5 class="name"> AIyan Yuhsu</h5>
+                // <p class="title"> Mechanical Engeneer </p>
+                // <p class="intro"> With help of AI Aiyan has launched a gas free car which will be really great for
+                    // the envirnment.
+                    // </p>
+                // </div>
+            // </div>
+        // </div>
+        
+        // <div class="presenters">
+            // <img src="./images/speaker6.jpg" alt="speaker" />
+            // <div class="words">
+                // <h5 class="name">Ramon Rui</h5>
+                // <p class="title"> Global Artificial intelligence specialist </p>
+                // <p class="intro"> Ramon has been specializing Artificial intelligence specialist and he has 10 years
+                    // experience as Software Engeener
+                    // </p>
+                // </div>
+            // </div>
+        // <button class="more"> more <img src="./images/arrowicon.png"></button>
+        // </div> -->
+    </section> 
+    <!-- end here -->
     <section class="sponsors">
         <h3>Sponsors</h3>
         <div class="images">
@@ -178,12 +190,11 @@
             <img src="images/mozilla.svg" alt="logo">
         </div>
     </section>
-
+    <section class="reference">
+        <img src="./images/logo.jpg" alt="logo">
+        <p> Brenda Wihogora, 2022 Artificial intelligence Webinar templete was disigned by Cindy Shin.
+        </p>
+    </section>
+    <script src="./main.js"></script>
 </body>
-<footer class="reference">
-    <img src="./images/logo.jpg" alt="logo">
-    <p> Brenda Wihogora, 2022 Artificial intelligence Webinar templete was disigned by Cindy Shin.
-    </p>
-</footer>
-
 </html>
