@@ -205,7 +205,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: gray;
+  background:whitesmoke;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -277,7 +277,11 @@ li {
     font-size: 30px;
     font-family: sans-serif;
   }
-
+.program{
+    color: black;
+    padding-bottom: 30px;
+    
+}
   .time h4 {
     font-size: 30px;
     font-family: sans-serif;
@@ -297,7 +301,6 @@ li {
     flex-direction: row;
     justify-content: center;
     row-gap: 1px;
-    margin: 0;
   }
 
   .part {
@@ -309,7 +312,7 @@ li {
     margin-right: 0;
     margin-left: 2px;
     margin-top: 20px;
-    gap: 0;
+    gap: 0
   }
 
   .clickme {
@@ -336,7 +339,7 @@ li {
     font-family: sans-serif;
   }
 
-  a .activities {
+   .activities a{
     display: inline;
     color: black;
     padding: 50px;
