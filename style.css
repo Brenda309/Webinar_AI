@@ -424,6 +424,7 @@ li {
     justify-content: right;
     padding: 15px;
     font-size: 16px;
+    align-items: center;
   }
 
   .menu-items li {
@@ -442,7 +443,7 @@ li {
 
   .sponsors {
     display: flex;
-    margin: 20px;
+    margin: 20px 0;
     flex-direction: column;
     background-color: rgb(66, 63, 63);
     justify-content: center;
