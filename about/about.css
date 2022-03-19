@@ -14,6 +14,12 @@ background:rgb(245, 245, 245);
 opacity: 0.85;
 }
 .nav-bar{
+
+    display: flex;
+    margin-top: 0px;
+    background-color:whitesmoke;
+    opacity: 1;
+    padding: 30px;
     margin-top: 0px;
     margin-left: 20px;
 }
@@ -30,7 +36,14 @@ h1{
     margin-left: 20px;
     text-align: center;
 }
-
+.menu-item-hidden{
+    display: none;
+ }
+.cancel{ 
+ display: none;
+  align-self: flex-start;
+  margin: 10px;
+}
 .disc{
     border: 1px solid whitesmoke;
     margin-left: 20px;
@@ -72,7 +85,7 @@ text-align: center;
 }
 .color{
     background: tomato;
-    opacity:0.79;
+    opacity:0.78;
 }
 .Event h5{
 font-size: 30px;
@@ -85,7 +98,9 @@ color: white;
     text-align: center;
     color: white;
 }
-
+.cancel{ 
+    display: none;
+}
 .events{
 display: flex;
 flex-direction: column;
@@ -164,7 +179,39 @@ flex-shrink: 0;
 width: 70px;
 height: 70px;
 }
+.menu-item-active{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    background:whitesmoke;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+     left: 0;
+    right: 0;
+    top:0;
+    width:98%;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    font-family: sans-serif;
+}
 
+ .menu-item-active:-webkit-scrollbar {
+    display: none; 
+}
+
+
+
+  li{
+     list-style: none;
+ }
+
+ .menu-item-active a{
+     text-decoration: none;
+     color:black
+ }
 @media only screen and (min-width: 769px) {
 
     .nav-bar{

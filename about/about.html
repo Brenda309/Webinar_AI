@@ -12,11 +12,21 @@
 <body>
     <header class="landing-page">
         <div class="home-page">
-            <nav class="nav-bar">
-                <a href="#" class="menu">
-                    <img src="./imagesabout/menu.png" alt="Menu" />
-                </a>
-            </nav>
+          <nav>
+              <div class="nav-bar">
+            <img class="humbuger" src="./imagesabout/menu.png" alt="Menu" />
+            <ul class="menu-item-hidden">
+                <li class="cancel"><img src="./imagesabout/xicon.png" alt=""></li>
+                <li><a href="../about/about.html" class="about">About</a></li>
+                <li><a href="#Program" class="nav-list">Program</a></li>
+                <li><a href="#join" class="nav-list">Join</a></li>
+                <li><a href="#sponsor" class="nav-list">Sponsor</a></li>
+                <li><a href="#news" class="nav-list">News</a></li>
+                <li><a href="#campain" class="campain">CC Campain</a></li>
+            </ul>
+        </div>
+    </nav>
+            
             <div class="title">
                 <p class="greeting"><strong>Hello World!</strong></p>
                 <h1>Artifitial Intelligence Webinar 2022</h1>
@@ -40,7 +50,8 @@
 
     <section class="logo">
         <h3>Creative Amazing <br> Artificial Intelligence Webinar 2022 Logo</h3>
-        <img src="imagesabout/Aii.jpg" alt="logo">
+        <a href="./index.html" class="logo">
+        <img src="imagesabout/Aii.jpg" alt="logo"></a>
     </section>
 
     <section class="past">
@@ -66,16 +77,18 @@
     <section class="sponsors">
         <h3>Sponsors</h3>
         <div class="images">
-            <img src="imagesabout/airbnb.svg" alt="logo">
-            <img src="imagesabout/google.svg" alt="logo">
-            <img src="imagesabout/amazon-png.png" alt="logo">
-            <img src="imagesabout/facebook.svg" alt="logo">
-            <img src="imagesabout/mozilla.svg" alt="logo">
+            <img src="imagesabout/airbnb.svg" alt="airbnb">
+            <img src="imagesabout/google.svg" alt="google">
+            <img src="imagesabout/amazon-png.png" alt="amazon">
+            <img src="imagesabout/facebook.svg" alt="facebook">
+            <img src="imagesabout/mozilla.svg" alt="mozilla">
         </div>
     </section>
+    <script src="./about.js"></script>
 </body>
 <footer class="refera">
-    <img src="./imagesabout/logo.jpg" alt="logo">
+<a href="./index.html" class="menu">
+    <img src="./imagesabout/logo.jpg" alt="logo"></a>
     <p>2022 Artificial intelligence Webinar templete was disigned by Cindy Shin.</p>
 </footer>
 

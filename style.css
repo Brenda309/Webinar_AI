@@ -40,6 +40,7 @@ h1{
     font-size: 40px;
     margin-left: 20px;
     padding-bottom:20px;
+    font-family: sans-serif;
 }
 
 .disc{
@@ -49,6 +50,7 @@ h1{
     margin-right: 20px;
     padding: 30px;
     margin-bottom: 20px;
+    font-family: sans-serif;
 }
 .time h4{
 font-size: 30px;
@@ -61,6 +63,7 @@ color: rgb(102, 98, 98);
  font-size: 15px;
  margin-left: 20px;
  padding-bottom: 40px;
+ font-family: sans-serif;
 }
 .activities{
 display: flex;
@@ -73,6 +76,7 @@ font-size: 25px;
 text-align: center;
 color:white;
 margin-top: 20px;
+font-family: sans-serif;
 }
  
 .part{
@@ -151,6 +155,7 @@ color: orangered;
 
 .explanation{
 padding-top: 20px;
+font-family: sans-serif;
 }
 
 .reference{
@@ -168,6 +173,7 @@ padding-top: 20px;
 }
 .reference p{
     color: darkgray;
+    font-family: sans-serif;
 }
 .nav-menu{
     display: none;
@@ -182,6 +188,7 @@ padding-top: 20px;
     border: 2px solid gray;
     padding: 10px 200px; 
     align-items: center;
+    font-family: sans-serif;
  }
  
  .menu-item-hidden{
@@ -192,7 +199,7 @@ padding-top: 20px;
     display: flex;
     flex-direction: column;
    align-items: center;
-    background:darkcyan;
+    background:gray;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -203,11 +210,12 @@ padding-top: 20px;
     width:100%;
     height: 100vh;
     overflow: hidden;
-    position: fixed;
-    
-
+    position:fixed ;
+    font-family: sans-serif;
  }
-
+.menu-item-active::-webkit-scrollbar {
+    display: none; 
+}
   li{
      list-style: none;
  }
@@ -251,6 +259,7 @@ h1{
     margin-left: 20px;
     padding-bottom:20px;
     width: 700px;
+    font-family: sans-serif;
 }
 
 .disc{
@@ -261,6 +270,7 @@ h1{
     padding: 30px;
     margin-bottom: 20px;
     font-size: 30px;
+    font-family: sans-serif;
 }
 .time h4{
 font-size: 30px;
@@ -273,6 +283,7 @@ color: rgb(102, 98, 98);
  font-size: 20px;
  margin-left: 20px;
  padding-bottom: 40px;
+ font-family: sans-serif;
 }
 .allparts{
 display: flex;
@@ -314,20 +325,20 @@ font-size: 15px;
 text-align: center;
 width: 150px;
 padding-bottom: 10px;
+font-family: sans-serif;
 }
 .activities a{
     display: inline;
     color: black;
     padding:50px;
     text-align: center;
+    font-family: sans-serif;
 }
 
 .people{
-  display: flex;
-  flex-direction: row;
-  margin-top:20px;
-  justify-content: center;
-  flex-wrap: wrap;
+  display: grid;
+   grid-template-areas: auto  auto;
+
 }
 
 .presenters {
@@ -344,6 +355,13 @@ padding-bottom: 10px;
 
 .speakers h3{
     color: #0e0d0d;
+}
+.speakers {
+display: flex;
+  flex-direction: row;
+  margin-top:20px;
+  flex-wrap: wrap;
+  justify-content: center;
 
 }
 
@@ -466,5 +484,6 @@ flex-shrink: 0;
 }
 .reference p{
     color: black;
+    font-family: sans-serif;
 }
 }
