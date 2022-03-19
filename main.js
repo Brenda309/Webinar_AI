@@ -2,7 +2,7 @@ const dataSet = {
   header: 'Featured Presenters',
   image: ['./images/speaker1.jpg', './images/speaker7.jpg', './images/speaker3.jpg', './images/speaker8.jpg', './images/speaker5.jpg', './images/speaker6.jpg'],
   name: ['Hanna Isa', 'David Darwin', 'Suzan Sanny', 'Pate Petar', 'AIyan Yuhsu', 'Ramon Rui'],
-  title: ['Global Artificial intelligence specialist', 'Python Developer', ' Product manager', 'College Professor', 'Mechanical Engeneer','Python Developer'],
+  title: ['Global Artificial intelligence specialist', 'Python Developer', ' Product manager', 'College Professor', 'Mechanical Engeneer', 'Python Developer'],
   intro: ['Global Artificial intelligence specialist and Project manager at Umurava',
     ' David has worked on world leading project using AI technology as freelence Python Developer',
     'Susan has a lot of experience technology and she is excited to share her experience and her journey',
