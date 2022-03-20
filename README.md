@@ -1,56 +1,47 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# A Webanar Website
 
-> Description the project.
+First module Capstone
+![project](https://user-images.githubusercontent.com/72613775/159134798-4176a73f-2f8b-41a3-9a54-d047cd9f80f8.png)
 
 
-## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
+![mproject](https://user-images.githubusercontent.com/72613775/159134800-0627dea9-0852-4242-9901-dfc0e523b765.png)
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[See live Demo](https://brenda309.github.io/capstone/)
 
 
 ## Getting Started
+To get a local copy up and running follow these simple steps:
+Open your terminal and navigate to the folder you would like to put these files.
+Type these commands into the terminal:
+git clone https://github.com/brenda309/Capstone.git
+cd directory
+open index.html
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+## Built With
+
+- JavaScript
+- HTML
+- CSS
 
 
-To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
 
 ### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+Git version control & Text Editor
 
 
 ## Authors
 
-👤 **Author1**
+👤 Brenda
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [Brenda309](https://github.com/309)
+- Twitter: [@Brenda](https://twitter.com/@Brenda)
+- LinkedIn: [Brenda Wihogora](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 

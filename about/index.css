@@ -1,0 +1,375 @@
+* {
+  box-sizing: content-box;
+  padding: 0;
+}
+
+.landing-page {
+  background-image: url("./imagesabout/backgroud.jpg");
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  background: rgb(245, 245, 245);
+  opacity: 0.85;
+}
+
+.nav-bar {
+  display: flex;
+  margin-top: 0;
+  background-color: whitesmoke;
+  opacity: 1;
+  padding: 30px;
+  margin-left: 20px;
+}
+
+.greeting {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(253, 75, 10);
+  font-size: 30px;
+  margin-left: 20px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.menu-item-hidden {
+  display: none;
+}
+
+.cancel {
+  display: none;
+  align-self: flex-start;
+  margin: 10px;
+}
+
+.disc {
+  border: 1px solid whitesmoke;
+  margin-left: 20px;
+  padding: 8px;
+  margin-right: 20px;
+  text-align: center;
+  background: white;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+}
+
+.time p {
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo h3 {
+  text-align: center;
+}
+
+.logo img {
+  width: 200px;
+  height: 100px;
+  border: 1px solid rgb(218, 209, 209);
+  align-self: center;
+  padding: 25px 120px;
+}
+
+.Event {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./imagesabout/meeting2022.jpg);
+  background-size: 20vh;
+}
+
+.color {
+  background: tomato;
+  opacity: 0.78;
+}
+
+.Event h5 {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.Event p {
+  text-align: center;
+  color: white;
+}
+
+.events {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./imagesabout/meeting2020.jpg);
+  background-size: 30vh;
+  margin-top: 30px;
+}
+
+.events h5 {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.events p {
+  text-align: center;
+  color: white;
+}
+
+.colora {
+  background: tomato;
+  opacity: 0.79;
+}
+
+.past {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.past h4 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.past p {
+  text-align: center;
+}
+
+.sponsors {
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
+  background-color: rgb(66, 63, 63);
+  justify-content: center;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.images img {
+  display: flex;
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  flex-grow: 0;
+  flex-basis: 0;
+  flex-shrink: 0;
+}
+
+.sponsors h3 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.refera {
+  display: flex;
+  margin-top: 20px;
+  padding: 25px;
+  gap: 3em;
+  justify-content: center;
+}
+
+.refera img {
+  width: 70px;
+  height: 70px;
+}
+
+.menu-item-active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: whitesmoke;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 98%;
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  font-family: 'Lato', sans-serif;
+}
+
+.menu-item-active:-webkit-scrollbar {
+  display: none;
+}
+
+.nav-menu {
+  display: none;
+}
+
+.media {
+  display: none;
+}
+
+.menu-items {
+  display: none;
+}
+
+li {
+  list-style: none;
+}
+
+.menu-item-active a {
+  text-decoration: none;
+  color: black;
+}
+
+@media only screen and (min-width: 769px) {
+  .media {
+    display: flex;
+    justify-content: right;
+    background-color: rgb(62, 62, 66);
+    gap: 1em;
+    padding-right: 10px;
+  }
+
+  a .media {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .greeting {
+    display: none;
+  }
+
+  .menu-items {
+    display: flex;
+    justify-content: right;
+    padding: 15px;
+    font-size: 16px;
+    align-items: center;
+  }
+
+  .title {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-menu {
+    display: flex;
+    list-style: none;
+    background: white;
+    justify-content: space-between;
+    margin-left: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .menu-items li {
+    list-style: none;
+    padding: 5px 50px;
+  }
+
+  .nav-menu img {
+    width: 200px;
+    height: 70px;
+    margin: 10px 100px;
+  }
+
+  h1 {
+    width: 600px;
+    font-size: 50px;
+  }
+
+  .disc {
+    width: 900px;
+    align-self: center;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  .time {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo h3 {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .logo img {
+    width: 200px;
+    height: 100px;
+    border: 1px solid rgb(218, 209, 209);
+    align-self: center;
+    padding: 25px 220px;
+  }
+
+  .sample {
+    display: grid;
+    grid-template-areas: "auto auto";
+    gap: 5em;
+    margin-top: 0;
+    justify-content: center;
+  }
+
+  .Event {
+    margin-top: 30px;
+  }
+
+  .Event p {
+    padding-bottom: 80px;
+    padding-left: 10px;
+    padding-right: 15px;
+  }
+
+  .colora p {
+    padding-bottom: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .sponsors h3 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0;
+  }
+
+  .images img {
+    display: flex;
+    width: 100px;
+    height: 50px;
+    padding: 10px 60px;
+    flex-grow: 0;
+    flex-basis: 0;
+    flex-shrink: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .refera {
+    gap: 10em;
+    background: rgb(32, 31, 31);
+    color: white;
+  }
+}
