@@ -42,3 +42,11 @@ cancel.addEventListener('click', () => {
   cancel.style.display = 'none';
   humbuger.style.display = 'block';
 });
+const speakersSection = document.querySelector('.speakers');
+const peopleSection = document.querySelector('.people');
+const featuredSpeakerHeaderContainer = document.createElement('div');
+const featuredSpeakerHeaderText = document.createElement('h1');
+featuredSpeakerHeaderContainer.appendChild(featuredSpeakerHeaderText);
+speakersSection.insertBefore(featuredSpeakerHeaderContainer,peopleSection);
+featuredSpeakerHeaderText.textContent = 'Featured Speakers';
+
