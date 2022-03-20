@@ -427,11 +427,11 @@ li {
     padding: 15px;
     font-size: 16px;
     align-items: center;
+    gap: 50px;
   }
 
   .menu-items li {
     list-style: none;
-    padding: 5px 50px;
   }
 
   .campain {
