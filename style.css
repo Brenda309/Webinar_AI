@@ -245,7 +245,7 @@ li {
   justify-content: center;
   width: 100vw;
   font-family: lato, sans-serif;
-  font-size:30px;
+  font-size: 30px;
 }
 
 @media only screen and (min-width: 769px) {
@@ -393,7 +393,7 @@ li {
     padding-right: 10px;
   }
 
-  a .media {
+  .link {
     text-decoration: none;
     color: hsl(0, 0%, 100%);
   }

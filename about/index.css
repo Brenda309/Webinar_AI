@@ -210,6 +210,18 @@ h1 {
   display: none;
 }
 
+.nav-menu {
+  display: none;
+}
+
+.media {
+  display: none;
+}
+
+.menu-items {
+  display: none;
+}
+
 li {
   list-style: none;
 }
