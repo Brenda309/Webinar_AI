@@ -29,7 +29,7 @@
 }
 
 .greeting {
-  font-family: sans-serif;
+  font-family:'Lato', sans-serif;
   color: #eb4a10;
   font-size: 20px;
   margin-left: 30px;
@@ -40,7 +40,7 @@ h1 {
   font-size: 40px;
   margin-left: 20px;
   padding-bottom: 20px;
-  font-family: sans-serif;
+  font-family:'Lato', sans-serif;
 }
 
 .disc {
@@ -49,12 +49,12 @@ h1 {
   margin-right: 20px;
   padding: 30px;
   margin-bottom: 20px;
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .time h4 {
   font-size: 30px;
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;;
   margin-left: 20px;
   color: rgb(102, 98, 98);
 }
@@ -63,7 +63,7 @@ h1 {
   font-size: 15px;
   margin-left: 20px;
   padding-bottom: 40px;
-  font-family: sans-serif;
+  font-family:'Lato', sans-serif;
 }
 
 .activities {
@@ -78,7 +78,7 @@ h3 {
   text-align: center;
   color: white;
   margin-top: 20px;
-  font-family: sans-serif;
+  font-family:'Lato', sans-serif;
 }
 
 .part {
@@ -107,7 +107,7 @@ h3 {
 .clickme {
   border-style: none;
   color: white;
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -159,7 +159,7 @@ h3 {
 
 .explanation {
   padding-top: 20px;
-  font-family: sans-serif;
+  font-family:'Lato', sans-serif;
 }
 
 .reference {
@@ -178,7 +178,7 @@ h3 {
 
 .reference p {
   color: darkgray;
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .nav-menu {
@@ -195,7 +195,7 @@ h3 {
   border: 2px solid gray;
   padding: 10px 200px;
   align-items: center;
-  font-family: sans-serif;
+  font-family:'Lato', sans-serif;
 }
 
 .menu-item-hidden {
@@ -217,7 +217,7 @@ h3 {
   height: 100vh;
   overflow: hidden;
   position: fixed;
-  font-family: sans-serif;
+  font-family:'Lato', sans-serif;
 }
 
 .menu-item-active::-webkit-scrollbar {
@@ -253,7 +253,7 @@ li {
   }
 
   .greeting {
-    font-family: sans-serif;
+    font-family:'Lato', sans-serif;
     color: #eb4a10;
     font-size: 30px;
     margin-left: 30px;
@@ -266,7 +266,7 @@ li {
     margin-left: 20px;
     padding-bottom: 20px;
     width: 700px;
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
   }
 
   .disc {
@@ -276,7 +276,7 @@ li {
     padding: 30px;
     margin-bottom: 20px;
     font-size: 30px;
-    font-family: sans-serif;
+    font-family:'Lato', sans-serif;
   }
 
   .program {
@@ -286,7 +286,7 @@ li {
 
   .time h4 {
     font-size: 30px;
-    font-family: sans-serif;
+    font-family:'Lato', sans-serif;
     margin-left: 20px;
     color: rgb(102, 98, 98);
   }
@@ -295,9 +295,8 @@ li {
     font-size: 20px;
     margin-left: 20px;
     padding-bottom: 40px;
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
   }
-
   .allparts {
     display: flex;
     flex-direction: row;
@@ -338,7 +337,7 @@ li {
     text-align: center;
     width: 150px;
     padding-bottom: 10px;
-    font-family: sans-serif;
+    font-family:'Lato', sans-serif;
   }
 
   #speakers{
@@ -357,13 +356,7 @@ li {
   .speakers h3 {
     color: #0e0d0d;
   }
-/* 
-  .presenters{
-    display: flex;
-   flex-direction: row;
 
-
-  }  */
   .words {
     display: flex;
     flex-direction: column;
@@ -485,6 +478,6 @@ li {
 
   .reference p {
     color: black;
-    font-family: sans-serif;
+    font-family:'Lato', sans-serif;
   }
 }
