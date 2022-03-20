@@ -35,7 +35,7 @@ h1 {
   font-size: 30px;
   margin-left: 20px;
   text-align: center;
-   font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .menu-item-hidden {
@@ -203,7 +203,7 @@ h1 {
   height: 100vh;
   overflow: hidden;
   position: fixed;
-  font-family:'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .menu-item-active:-webkit-scrollbar {
@@ -220,8 +220,7 @@ li {
 }
 
 @media only screen and (min-width: 769px) {
-
-.media {
+  .media {
     display: flex;
     justify-content: right;
     background-color: rgb(62, 62, 66);
@@ -241,28 +240,6 @@ li {
   .greeting {
     display: none;
   }
- .menu-items {
-    display: flex;
-    justify-content: right;
-    padding: 15px;
-    font-size: 16px;
-    align-items: center;
-  }
-  .title {
-    display: flex;
-    justify-content: center;
-  }
-.nav-menu {
-    display: flex;
-    list-style: none;
-    background: white;
-    justify-content: space-between;
-    margin-left: 0;
-  }
- a {
-    text-decoration: none;
-    color: black;
-  }
 
   .menu-items {
     display: flex;
@@ -272,15 +249,35 @@ li {
     align-items: center;
   }
 
+  .title {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-menu {
+    display: flex;
+    list-style: none;
+    background: white;
+    justify-content: space-between;
+    margin-left: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
   .menu-items li {
     list-style: none;
     padding: 5px 50px;
   }
+
   .nav-menu img {
     width: 200px;
     height: 70px;
     margin: 10px 100px;
   }
+
   h1 {
     width: 600px;
     font-size: 50px;
@@ -361,6 +358,6 @@ li {
   .refera {
     gap: 10em;
     background: rgb(32, 31, 31);
-    color:white;
+    color: white;
   }
 }
