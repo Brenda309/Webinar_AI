@@ -14,6 +14,9 @@ const dataSet = {
 const speakers = document.getElementById('speakers');
 for (let i = 0; i < dataSet.image.length; i += 1) {
   const SpeakerDiv = document.createElement('div');
+  if (i == 0) {
+    SpeakerDiv.className = 'firstOne';
+  }
   const script = `
       <div class="people">
       <div class="presenters">

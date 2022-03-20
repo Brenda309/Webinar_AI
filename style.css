@@ -239,6 +239,15 @@ li {
   margin: 10px;
 }
 
+.speakers::before {
+  content: 'Featured Speakers';
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  font-family: lato, sans-serif;
+  font-size:30px;
+}
+
 @media only screen and (min-width: 769px) {
   .nav-bar {
     display: none;
