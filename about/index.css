@@ -220,6 +220,20 @@ li {
 }
 
 @media only screen and (min-width: 769px) {
+
+.media {
+    display: flex;
+    justify-content: right;
+    background-color: rgb(62, 62, 66);
+    gap: 1em;
+    padding-right: 10px;
+  }
+
+  a .media {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+  }
+
   .nav-bar {
     display: none;
   }
@@ -227,12 +241,46 @@ li {
   .greeting {
     display: none;
   }
-
+ .menu-items {
+    display: flex;
+    justify-content: right;
+    padding: 15px;
+    font-size: 16px;
+    align-items: center;
+  }
   .title {
     display: flex;
     justify-content: center;
   }
+.nav-menu {
+    display: flex;
+    list-style: none;
+    background: white;
+    justify-content: space-between;
+    margin-left: 0;
+  }
+ a {
+    text-decoration: none;
+    color: black;
+  }
 
+  .menu-items {
+    display: flex;
+    justify-content: right;
+    padding: 15px;
+    font-size: 16px;
+    align-items: center;
+  }
+
+  .menu-items li {
+    list-style: none;
+    padding: 5px 50px;
+  }
+  .nav-menu img {
+    width: 200px;
+    height: 70px;
+    margin: 10px 100px;
+  }
   h1 {
     width: 600px;
     font-size: 50px;
@@ -312,5 +360,7 @@ li {
 
   .refera {
     gap: 10em;
+    background: rgb(32, 31, 31);
+    color:white;
   }
 }

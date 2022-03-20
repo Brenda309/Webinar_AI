@@ -28,18 +28,6 @@ for (let i = 0; i < dataSet.image.length; i += 1) {
   SpeakerDiv.innerHTML = script;
   speakers.appendChild(SpeakerDiv);
 }
-const btn = document.createElement('button');
-const img = document.createElement('img');
-img.src = './images/arrowicon.png';
-btn.textContent = 'More';
-btn.className = 'more';
-btn.appendChild(img);
-const click = document.querySelectorAll('.people');
-for (let i = 0; i < click.length; i += 1) {
-  if (i === 5) {
-    click[i].appendChild(btn);
-  }
-}
 const menu = document.querySelector('.menu-item-hidden');
 const humbuger = document.querySelector('.humbuger');
 const cancel = document.querySelector('.cancel');

@@ -341,12 +341,13 @@ li {
     font-family: sans-serif;
   }
 
-  .presenters {
+  #speakers{
     display: flex;
     flex-direction: row;
-    gap: 2em;
-    padding-top: 40px;
-  }
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 50;
+  } 
 
   .presenters img {
     width: 150px;
@@ -356,15 +357,13 @@ li {
   .speakers h3 {
     color: #0e0d0d;
   }
-
-  .speakers {
+/* 
+  .presenters{
     display: flex;
-    flex-direction: row;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+   flex-direction: row;
 
+
+  }  */
   .words {
     display: flex;
     flex-direction: column;
@@ -469,10 +468,6 @@ li {
     color: rgb(201, 191, 191);
     font-size: 50px;
     text-align: center;
-  }
-
-  .more {
-    display: none;
   }
 
   .reference {
