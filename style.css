@@ -346,7 +346,7 @@ li {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0 50px;
+    padding: 50px 0;
   }
 
   .presenters img {
