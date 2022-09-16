@@ -8,18 +8,20 @@ First module Capstone
 
 ![mproject](https://user-images.githubusercontent.com/72613775/159134800-0627dea9-0852-4242-9901-dfc0e523b765.png)
 
-## Live Demo (if available)
+## Live Demo  
 
-[See live Demo](https://brenda309.github.io/capstone/)
+[See live Demo](https://brenda309.github.io/Webinar_AI/)
 
 
 ## Getting Started
+
 To get a local copy up and running follow these simple steps:
+
 Open your terminal and navigate to the folder you would like to put these files.
 Type these commands into the terminal:
-git clone https://github.com/brenda309/Capstone.git
-cd directory
-open index.html
+    $   git clone https://github.com/brenda309/Capstone.git
+    $   cd  Capstone
+      Double click on index.html file in run project in Browser
 
 ## Built With
 
@@ -28,19 +30,19 @@ open index.html
 - CSS
 
 
-
-
 ### Install
-Git version control & Text Editor
+
+   $ sudo apt-get update 
+   $ sudo apt-get install git.
 
 
 ## Authors
 
-👤 Brenda
+👤 Brenda Wihogora
 
 - GitHub: [Brenda309](https://github.com/309)
 - Twitter: [@Brenda](https://twitter.com/@Brenda)
-- LinkedIn: [Brenda Wihogora](https://linkedin.com/in/linkedinhandle)
+- LinkedIn: [Brenda Wihogora](https://www.linkedin.com/in/brenda-wihogora/)
 
 
 ## 🤝 Contributing
