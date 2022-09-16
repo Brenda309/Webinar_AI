@@ -17,8 +17,9 @@ First module Capstone
 
 To get a local copy up and running follow these simple steps:
 
-Open your terminal and navigate to the folder you would like to put these files.
-Type these commands into the terminal:
+. Open your terminal and navigate to the folder you would like to put these files.
+Type these commands into your terminal:
+
     $   git clone https://github.com/brenda309/Capstone.git
     $   cd  Capstone
       Double click on index.html file in run project in Browser
