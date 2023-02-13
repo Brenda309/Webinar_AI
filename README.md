@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# A Webanar Website
+# A Webinar Website
 
 First module Capstone
 ![project](https://user-images.githubusercontent.com/72613775/159134798-4176a73f-2f8b-41a3-9a54-d047cd9f80f8.png)
